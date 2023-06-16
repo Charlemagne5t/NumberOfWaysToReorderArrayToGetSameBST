@@ -16,4 +16,11 @@ public class SolutonTest {
         Assert.assertEquals(output, new Solution().numOfWays(nums));
     }
 
+    @Test
+    public void numOfWaysTest3() {
+        int[] nums = {1, 2, 3};
+        int output = 0;
+        Assert.assertEquals(output, new Solution().numOfWays(nums));
+    }
+
 }
